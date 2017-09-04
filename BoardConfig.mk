@@ -51,14 +51,9 @@ BOARD_DTBTOOL_ARGS := -2
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
-# For original branch
-#TARGET_KERNEL_CONFIG := msm8974_defconfig
-#TARGET_KERNEL_SOURCE := kernel/iuni/original
-
 # For LineageOS branch
 TARGET_KERNEL_CONFIG := lineageos_u3_defconfig
 TARGET_KERNEL_SOURCE := kernel/iuni/msm8974
-
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
@@ -177,12 +172,13 @@ WPA_SUPPLICANT_VERSION           := VER_0_8_X
 
 #TWRP flags
 DEVICE_RESOLUTION := 1440x2560
-#TW_TARGET_USES_QCOM_BSP := true
+TW_TARGET_USES_QCOM_BSP := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_NO_USB_STORAGE := true
-#TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_CRYPTO := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 RECOVERY_SDCARD_ON_DATA := true
 BOARD_HAS_NO_REAL_SDCARD := true
+#If TWRP is located at bootable/recovery-twrp
 #RECOVERY_VARIANT := twrp

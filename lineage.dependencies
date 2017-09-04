@@ -1,14 +1,24 @@
 [
   {
-    "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common"
+    "remote": "github",
+    "repository": "Abdess/twrp_device_iuni_u3",
+    "target_path": "device/iuni/u3",
+    "branch": "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository": "Abdess/android_kernel_iuni_u3",
+    "target_path": "kernel/iuni/msm8974",
+    "branch": "lineage-15.0"
+  },
+  {
+    "remote": "github",
+    "repository": "TeamWin/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch": "android-7.1"
   },
   {
     "repository": "android_external_busybox",
     "target_path": "external/busybox"
-  },
-  {
-    "repository": "android_packages_resources_devicesettings",
-    "target_path": "packages/resources/devicesettings"
   }
 ]
