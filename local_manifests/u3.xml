@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <project name="Abdess/twrp_device_iuni_u3" path="device/iuni/u3" remote="github" revision="omni-4.4" />
+  <project name="Abdess/android_kernel_iuni_u3" path="kernel/iuni/msm8974" remote="github" revision="original" />
+  <project name="android_hardware_qcom_display-caf-bfam" path="hardware/qcom/display-caf-bfam" remote="omnirom" revision="android-4.4" />
+  <project name="android_hardware_qcom_media-caf-bfam" path="hardware/qcom/media-caf-bfam" remote="omnirom" revision="android-4.4" />
+  <project name="android_hardware_qcom_audio-caf-bfam" path="hardware/qcom/audio-caf-bfam" remote="omnirom" revision="android-4.4" />
+</manifest>
