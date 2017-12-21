@@ -3,13 +3,13 @@
     "remote": "github",
     "repository": "Abdess/twrp_device_iuni_u3",
     "target_path": "device/iuni/u3",
-    "branch": "omni-4.4"
+    "revision": "omni-4.4"
   },
   {
     "remote": "github",
     "repository": "Abdess/android_kernel_iuni_u3",
     "target_path": "kernel/iuni/msm8974",
-    "branch": "original"
+    "revision": "original"
   },
   {
     "remote": "omnirom",
